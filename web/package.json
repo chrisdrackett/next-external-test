@@ -1,0 +1,14 @@
+{
+  "name": "test-setup-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "next-compose-plugins": "^2.2.0",
+    "next-fonts": "^1.0.3",
+    "next-images": "^1.4.0",
+    "next-svgr": "^0.0.2"
+  },
+  "devDependencies": {
+    "@expo/next-adapter": "^2.0.12"
+  }
+}

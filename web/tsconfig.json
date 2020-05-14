@@ -1,0 +1,18 @@
+{
+  "extends": "../tsconfig.shared.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "downlevelIteration": true,
+    "paths": {
+      "external": ["../external"],
+      "external/*": ["../external/*"],
+    },
+    "module": "esnext",
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "noEmit": true
+  },
+  "exclude": ["node_modules"]
+}
