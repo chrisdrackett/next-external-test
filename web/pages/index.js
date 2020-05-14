@@ -1,11 +1,14 @@
 import React from 'react'
 import Head from 'next/head'
 
-import { Wrapper} from 'external'
+import { Icon} from 'external'
+import { CommonWrap, Text } from 'common'
 
 export default function Home() {
   return (
-    <Wrapper>
+    <CommonWrap>
+      <Icon/>
+      <Text>Some Text</Text>
       <div className="container">
         <Head>
           <title>Create Next App</title>
@@ -209,6 +212,6 @@ export default function Home() {
           }
         `}</style>
       </div>
-    </Wrapper>
+    </CommonWrap>
   )
 }

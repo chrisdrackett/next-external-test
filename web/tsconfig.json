@@ -6,6 +6,7 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "downlevelIteration": true,
     "paths": {
+      "common": ["../common"],
       "external": ["../external"],
       "external/*": ["../external/*"],
     },
